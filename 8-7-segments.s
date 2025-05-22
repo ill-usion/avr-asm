@@ -29,7 +29,6 @@ out         DDRD, mask              ; Set digital pins 1 through 7 as output
 clr         mask
 out         PORTD, mask             ; Switch off all pins 1 thorugh 7
 
-clr         mask
 start:
     ldi         mask, segments1             ; Load the segment bits
     out         PORTD, mask                 ; Toggle segment bits
