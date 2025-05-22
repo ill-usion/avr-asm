@@ -23,7 +23,7 @@
 .equ        segments9       = 0b11011110
 .equ        segments0       = 0b01111110
 
-ldi         mask, 0b11111110         
+ldi         mask, (1 << PD7) | (1 << PD6) | (1 << PD5) | (1 << PD4) | (1 << PD3) | (1 << PD2) | (1 << PD1) 
 out         DDRD, mask              ; Set digital pins 1 through 7 as output
 
 clr         mask
