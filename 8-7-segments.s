@@ -5,7 +5,7 @@
 
 .def        mask            = r16
 .def        numDelayIterReg = r17   ; Number of iterations for 10ms delay
-.def        delayLoopRegL   = r24   ; Delay loop counter high
+.def        delayLoopRegL   = r24   ; Delay loop counter low
 .def        delayLoopRegH   = r25   ; Delay loop counter high
 
 .equ        delayLoopVal    = 39998
