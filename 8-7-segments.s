@@ -29,46 +29,55 @@ out         DDRD, mask              ; Set digital pins 1 through 7 as output
 clr         mask
 out         PORTD, mask             ; Switch off all pins 1 thorugh 7
 
-ldi         numDelayIterReg, delay
 start:
     ldi         mask, segments1             ; Load the segment bits
     out         PORTD, mask                 ; Toggle segment bits
+    ldi         numDelayIterReg, delay
     rcall       delay10ms
 
     ldi         mask, segments2
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms
 
     ldi         mask, segments3
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments4
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments5
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments6
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments7
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments8
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments9
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     ldi         mask, segments0
     out         PORTD, mask
+    ldi         numDelayIterReg, delay
     rcall       delay10ms 
 
     rjmp start
