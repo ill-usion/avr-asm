@@ -34,3 +34,5 @@ Documenting my AVR assembly learning journey
 1. [Program Memory](https://github.com/ill-usion/avr-asm/blob/main/13-loading-program-mem.s)
 2. [Copying from Program Memory to SRAM](https://github.com/ill-usion/avr-asm/blob/main/14-program-mem-to-sram.s)
 
+### Day 8
+1. [Controlling an external Shift Register](https://github.com/ill-usion/avr-asm/blob/main/15-shift-reg-w-7-segments.s)
