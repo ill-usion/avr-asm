@@ -22,17 +22,30 @@ Documenting my AVR assembly learning journey
 1. [Comparison, Branching, and Loops](https://github.com/ill-usion/avr-asm/blob/main/07-comparison-branching-and-loops.s)
 2. [Simple 7-segments display counter](https://github.com/ill-usion/avr-asm/blob/main/08-7-segments.s)
 
+
 ### Day 5
 1. [Understanding the Stack](https://github.com/ill-usion/avr-asm/blob/main/09-the-stack.s)
 2. [Macros](https://github.com/ill-usion/avr-asm/blob/main/10-macros.s)
 3. [A practical example with macros](https://github.com/ill-usion/avr-asm/blob/main/11-blink-with-delay-macro.s)
 
+
 ### Day 6
 1. [Extended I/O and SRAM](https://github.com/ill-usion/avr-asm/blob/main/12-ext-io-and-sram.s)
+
 
 ### Day 7
 1. [Program Memory](https://github.com/ill-usion/avr-asm/blob/main/13-loading-program-mem.s)
 2. [Copying from Program Memory to SRAM](https://github.com/ill-usion/avr-asm/blob/main/14-program-mem-to-sram.s)
 
+
 ### Day 8
 1. [Controlling an external Shift Register](https://github.com/ill-usion/avr-asm/blob/main/15-shift-reg-w-7-segments.s)
+
+
+### Day 9
+1. [UART - Outputting strings](https://github.com/ill-usion/avr-asm/blob/main/16-uart.s)
+2. [UART - User input (unfinished)](https://github.com/ill-usion/avr-asm)
+
+
+### Day 10
+1. [Controlling a 16x2 LCD](https://github.com/ill-usion/avr-asm/blob/main/18-16x2-lcd.s)
