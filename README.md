@@ -1,6 +1,7 @@
 # avr-asm
 
-Documenting my AVR assembly learning journey
+Documenting my AVR assembly learning journey.
+The following code was run and tested on an atmega328p.
 
 # Index
 ### Day 1
